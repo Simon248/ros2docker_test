@@ -1,0 +1,43 @@
+[0.453s] Invoking command in '/home/maretsu/ros2docker_test/src/py_pubsub': PS1=\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\]\[\e[31m\]`parse_git_branch`\[\e[m\]\$ PYTHONPATH=/home/maretsu/ros2docker_test/build/py_pubsub/prefix_override:/home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/maretsu/ros2docker_test/build/py_pubsub/build install --record /home/maretsu/ros2docker_test/build/py_pubsub/install.log --single-version-externally-managed
+[0.570s] running egg_info
+[0.570s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.570s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.570s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.571s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.571s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.571s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.571s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.572s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.572s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.572s] running build
+[0.572s] running build_py
+[0.572s] creating /home/maretsu/ros2docker_test/build/py_pubsub/build
+[0.572s] creating /home/maretsu/ros2docker_test/build/py_pubsub/build/lib
+[0.572s] creating /home/maretsu/ros2docker_test/build/py_pubsub/build/lib/py_pubsub
+[0.572s] copying py_pubsub/__init__.py -> /home/maretsu/ros2docker_test/build/py_pubsub/build/lib/py_pubsub
+[0.573s] copying py_pubsub/publisher_member_function.py -> /home/maretsu/ros2docker_test/build/py_pubsub/build/lib/py_pubsub
+[0.573s] copying py_pubsub/subscriber_member_function.py -> /home/maretsu/ros2docker_test/build/py_pubsub/build/lib/py_pubsub
+[0.573s] running install
+[0.573s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.573s]   warnings.warn(
+[0.573s] running install_lib
+[0.573s] creating /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.573s] copying /home/maretsu/ros2docker_test/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.573s] copying /home/maretsu/ros2docker_test/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.574s] copying /home/maretsu/ros2docker_test/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.574s] byte-compiling /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.574s] byte-compiling /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.574s] byte-compiling /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.574s] running install_data
+[0.574s] creating /home/maretsu/ros2docker_test/install/py_pubsub/share/ament_index
+[0.575s] creating /home/maretsu/ros2docker_test/install/py_pubsub/share/ament_index/resource_index
+[0.575s] creating /home/maretsu/ros2docker_test/install/py_pubsub/share/ament_index/resource_index/packages
+[0.575s] copying resource/py_pubsub -> /home/maretsu/ros2docker_test/install/py_pubsub/share/ament_index/resource_index/packages
+[0.575s] copying package.xml -> /home/maretsu/ros2docker_test/install/py_pubsub/share/py_pubsub
+[0.575s] running install_egg_info
+[0.575s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.576s] running install_scripts
+[0.586s] Installing listener script to /home/maretsu/ros2docker_test/install/py_pubsub/lib/py_pubsub
+[0.586s] Installing talker script to /home/maretsu/ros2docker_test/install/py_pubsub/lib/py_pubsub
+[0.586s] writing list of installed files to '/home/maretsu/ros2docker_test/build/py_pubsub/install.log'
+[0.597s] Invoked command in '/home/maretsu/ros2docker_test/src/py_pubsub' returned '0': PS1=\[\e[32m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[34m\]\w\[\e[m\]\[\e[31m\]`parse_git_branch`\[\e[m\]\$ PYTHONPATH=/home/maretsu/ros2docker_test/build/py_pubsub/prefix_override:/home/maretsu/ros2docker_test/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/maretsu/ros2docker_test/build/py_pubsub/build install --record /home/maretsu/ros2docker_test/build/py_pubsub/install.log --single-version-externally-managed

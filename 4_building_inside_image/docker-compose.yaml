@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  talker:
+    build: ./app1
+    # volumes:
+    #   - ./app1:/mon_code
+    # command: bash -c "source mon_code/install/setup.bash && ros2 run demo_nodes_cpp talker"
+
+  listener:
+    build: ./app2
+    # volumes:
+    #   - ./app2:/mon_code
+
+    # command: bash -c "source mon_code/install/setup.bash && ros2 run demo_nodes_cpp talker"
+
+    depends_on:
+      - talker
