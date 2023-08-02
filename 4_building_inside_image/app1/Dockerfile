@@ -14,7 +14,6 @@ SHELL ["/bin/bash", "-c"]
 RUN mkdir -p /ros_WS/src
 COPY /src /ros_WS/src
 WORKDIR /ros_WS
-RUN source /opt/ros/humble/setup.sh
-RUN colcon build
+RUN source /opt/ros/humble/setup.bash && colcon build
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
